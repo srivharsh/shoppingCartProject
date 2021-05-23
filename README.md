@@ -13,3 +13,4 @@ This is a demo project for a simple shopping cart appplication.
         5. Maven
 
 * Using this application we can create a shopping cart, retrieve the shopping cart, add products in the shopping cart, update products in the shopping cart, delete product in the shopping cart. 
+* Have incorporated swagger for documentation
