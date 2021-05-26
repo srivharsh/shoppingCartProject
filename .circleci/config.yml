@@ -9,4 +9,4 @@ workflows:
           account-url: AWS_ECR_ACCOUNT_URL
           region: AWS_REGION
           repo: '${MY_APP_PREFIX}'
-          tag: '${CIRCLE_SHA1}'
+          tag: 'latest'
