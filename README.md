@@ -2,12 +2,13 @@
 
 This is a demo project for a shopping cart appplication. We can download the **zip file** from the main branch and see the completed pushed code from **branch1**.
 * For creating this application I've used the below technology stack
-        1. Java 8
-        2. Spring Boot
-        3. Hibernate and JPA
-        4. Postgres
-        5. Maven
-        6. Swagger for documentation
+
+1. Java 8
+2. Spring Boot
+3. Hibernate and JPA
+4. Postgres
+5. Maven
+6. Swagger for documentation
 
 * Using this application we can create a shopping cart, retrieve the shopping cart, add products in the shopping cart, update products in the shopping cart, delete product in the shopping cart. 
 
