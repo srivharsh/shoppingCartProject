@@ -1,6 +1,6 @@
 # shoppingCartProject
 
-This is a demo project for a shopping cart appplication.
+This is a demo project for a shopping cart appplication. We can download the **zip file** from the main branch and see the completed pushed code from **branch1**.
 * For creating this application I've used the below technology stack
         1. Java 8
         2. Spring Boot
@@ -54,14 +54,19 @@ You can use **postman** to test the RESTAPIs.
 8) www.localhost:9090/api/carts/{cartId}/products/{productId} **DELETE**
 
 You can also use the below URLs for **Swagger** **Document** Implementation.
-**Docs**: http://localhost:9090/v2/api-docs/
-**UI**:   http://localhost:9090/swagger-ui.html#/
+1) **Docs**: http://localhost:9090/v2/api-docs/
+2) **UI**:   http://localhost:9090/swagger-ui.html#/
 
+To configure **Postgre**:
 
+We'll use - > psql – a terminal-based front-end to PostgreSQL database server.
+1) Download postgres, open up a cmd terminal and navigate to the bin folder.
+2) Use "psql --username="postgres" -W" and it will prompt for password.
+3) Enter "admin" as the deault password.
+4) You're now connected. Use "\l" to list all the available databases.
+5) Connect to testdb using "\c testdb" and again you'll be prompted for password. Enter "admin" as the password.
+6) You will now be connected to database "testdb" as user "postgres".
+7) You can use "\d" to list down all the tables.
 
-
-
-
-
-
-
+I've used docker to create a docker image and have pushed this image to dockerhub. Then I've configured a EC2 instance to run this docker image using AWS ECS. I've written a blog about it at medium: 
+https://harsh-sriv17.medium.com/using-docker-aws-to-create-push-deploy-a-spring-boot-application-e89986104a99
